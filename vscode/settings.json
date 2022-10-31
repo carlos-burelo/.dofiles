@@ -6,5 +6,43 @@
     "editor.semanticHighlighting.enabled": true, // semantic highlight
     "editor.semanticTokenColorCustomizations": { // semantic brackets
         "enabled": true
+    },
+    // One Dark Customizations
+    "oneDarkPro.italic": true,
+    "oneDarkPro.bold": true,
+    "oneDarkPro.vivid": true,
+    "workbench.colorCustomizations": {
+        "[One Dark Pro Darker]": {
+            "editor.background": "#06080c",
+            "menu.background": "#06080c",
+            "badge.background": "#0d5ca5",
+            "activityBar.background": "#06080c",
+            "terminal.background": "#06080c",
+            "tab.inactiveBackground": "#06080c",
+            "titleBar.activeBackground": "#06080c",
+            "editorWidget.background": "#06080c",
+            "editorWidget.border": "#1d2029",
+            "toolbar.hoverBackground": "#1d2029",
+            "editorGroupHeader.tabsBackground": "#06080c",
+            "list.hoverBackground": "#16181d",
+            "list.activeSelectionBackground": "#16181d",
+            "sideBar.background": "#06080c",
+            "statusBar.background": "#06080c",
+            "breadcrumb.background": "#06080c",
+            "panel.background": "#06080c",
+            "tab.activeBackground": "#17191f",
+            "widget.shadow": "#0e0f13",
+            "tab.border": "#1d2029",
+            "panel.border": "#1d2029",
+            "button.background": "#1d2029",
+            "input.background": "#16181d",
+            "activityBar.activeBackground": "#1d2029",
+            "scrollbarSlider.background": "#1d2029",
+            "editorLineNumber.activeForeground": "#d7ddee",
+            "editor.selectionBackground": "#454d5c48",
+            "editor.lineHighlightBackground": "#454d5c48",
+            "editor.findMatchBackground": "#1d2029",
+            "editor.findMatchHighlightBackground": "#1d2029"
+        } 
     }
 }
