@@ -3,13 +3,13 @@
     "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace", // font family
     "editor.minimap.enabled": false, // disable minimap
     "workbench.colorTheme": "One Dark Pro Darker", // theme
+    "editor.fontLigatures": true, // font ligatures
     "editor.semanticHighlighting.enabled": true, // semantic highlight
     "editor.semanticTokenColorCustomizations": { // semantic brackets
         "enabled": true
     },
     // One Dark Customizations
     "oneDarkPro.italic": true,
-    "oneDarkPro.bold": true,
     "oneDarkPro.vivid": true,
     "workbench.colorCustomizations": {
         "[One Dark Pro Darker]": {
