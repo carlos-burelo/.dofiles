@@ -1,48 +1,197 @@
 {
-    "workbench.iconTheme": "material-icon-theme", // icons
-    "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace", // font family
-    "editor.minimap.enabled": false, // disable minimap
-    "workbench.colorTheme": "One Dark Pro Darker", // theme
-    "editor.fontLigatures": true, // font ligatures
-    "editor.semanticHighlighting.enabled": true, // semantic highlight
-    "editor.semanticTokenColorCustomizations": { // semantic brackets
-        "enabled": true
-    },
-    // One Dark Customizations
-    "oneDarkPro.italic": true,
-    "oneDarkPro.vivid": true,
-    "workbench.colorCustomizations": {
-        "[One Dark Pro Darker]": {
-            "editor.background": "#06080c",
-            "menu.background": "#06080c",
-            "badge.background": "#0d5ca5",
-            "activityBar.background": "#06080c",
-            "terminal.background": "#06080c",
-            "tab.inactiveBackground": "#06080c",
-            "titleBar.activeBackground": "#06080c",
-            "editorWidget.background": "#06080c",
-            "editorWidget.border": "#1d2029",
-            "toolbar.hoverBackground": "#1d2029",
-            "editorGroupHeader.tabsBackground": "#06080c",
-            "list.hoverBackground": "#16181d",
-            "list.activeSelectionBackground": "#16181d",
-            "sideBar.background": "#06080c",
-            "statusBar.background": "#06080c",
-            "breadcrumb.background": "#06080c",
-            "panel.background": "#06080c",
-            "tab.activeBackground": "#17191f",
-            "widget.shadow": "#0e0f13",
-            "tab.border": "#1d2029",
-            "panel.border": "#1d2029",
-            "button.background": "#1d2029",
-            "input.background": "#16181d",
-            "activityBar.activeBackground": "#1d2029",
-            "scrollbarSlider.background": "#1d2029",
-            "editorLineNumber.activeForeground": "#d7ddee",
-            "editor.selectionBackground": "#454d5c48",
-            "editor.lineHighlightBackground": "#454d5c48",
-            "editor.findMatchBackground": "#1d2029",
-            "editor.findMatchHighlightBackground": "#1d2029"
-        } 
+  "window.zoomLevel": 1,
+  "window.restoreWindows": "none",
+  "window.openFilesInNewWindow": "off",
+  "window.openFoldersInNewWindow": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.fontFamily": "Cascadia Code",
+  "editor.minimap.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.inlayHints.enabled": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.inlayHints.fontFamily": "Cascadia Code",
+  "editor.inlayHints.padding": true,
+  "editor.inlayHints.fontSize": 12.5,
+  "editor.wordWrap": "on",
+  "editor.tabCompletion": "on",
+  "editor.accessibilitySupport": "off",
+  "editor.linkedEditing": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+
+  "editor.tokenColorCustomizations": {
+    "[One Dark Pro Darker]": {
+      "textMateRules": [
+        {
+          "scope": "meta.type.interface.graphql",
+          "settings": {
+            "foreground": "#e5c07b"
+          }
+        }
+      ]
     }
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "[One Dark Pro Darker]": {
+      "banner.background": "#06080c",
+      "dropdown.background": "#0e0f16",
+      "checkbox.background": "#115ea7",
+      "menu.background": "#06080c",
+      "badge.background": "#115ea7",
+      "button.background": "#0e0f16",
+      "terminal.background": "#06080c",
+      "panel.background": "#06080c",
+      "input.background": "#0e0f16",
+      "editorHoverWidget.background": "#0e0f16",
+      // SIDEBAR
+      "sideBar.background": "#06080c",
+      "sideBarSectionHeader.background": "#0e0f16",
+      // ACTIVITYBAR
+      "activityBar.background": "#06080c",
+      "activityBar.activeBackground": "#0e0f16",
+      // EDITOR
+      "editor.background": "#06080c",
+      "editorLineNumber.activeForeground": "#d7ddee",
+      "editor.selectionBackground": "#191a27",
+      "editor.lineHighlightBackground": "#1f2131", // selection
+      "editor.findMatchBackground": "#0e0f16",
+      "editor.findMatchBorder": "#0e0f16",
+      "editor.findMatchHighlightBackground": "#181925",
+      "editorInlayHint.background": "#454d5c2e",
+      "editorInlayHint.parameterBackground": "#454d5c2e",
+      "editorPane.background": "#06080c",
+      "editorWidget.background": "#06080c",
+      "editorWidget.border": "#1d2029",
+      "editorGroupHeader.tabsBackground": "#06080c",
+      "editorSuggestWidget.background": "#06080c",
+      "editorSuggestWidget.border": "#0e0f16",
+      "editorSuggestWidget.selectedBackground": "#0e0f16",
+      // TABS
+      "tab.inactiveBackground": "#06080c",
+      "tab.activeBackground": "#0e0f16",
+      "tab.border": "#1d2029",
+      // STATUS BAR
+      "statusBar.background": "#06080c",
+      // UNKNOWN
+      "list.dropBackground": "#06080c",
+      "titleBar.activeBackground": "#06080c",
+      "toolbar.hoverBackground": "#1d2029",
+      "list.hoverBackground": "#16181d",
+      "list.activeSelectionBackground": "#16181d",
+      "breadcrumb.background": "#06080c",
+      // -- SHADOWS
+      "widget.shadow": "#0e0f13",
+      "scrollbar.shadow": "#0e0f13",
+      "panel.border": "#1d2029",
+      "scrollbarSlider.background": "#1d2029"
+    }
+  },
+  // # GitHub Copilot
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": true
+  },
+
+  // # One Dark Pro
+  "oneDarkPro.italic": true,
+  "oneDarkPro.vivid": true,
+  // # Svelte
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "svelte.plugin.css.globals": "src/scss/root.scss",
+  "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+  "svelte.plugin.svelte.format.config.singleQuote": true,
+  "svelte.plugin.svelte.format.config.svelteBracketNewLine": true,
+  "svelte.plugin.svelte.format.config.svelteStrictMode": true,
+  // -- HTML
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "html.hover.references": false,
+  "html.hover.documentation": false,
+  // -- SCSS
+  "scss.hover.documentation": false,
+  "scss.hover.references": false,
+  "scss.lint.emptyRules": "error",
+  // -- TYPESCRIPT
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.format.semicolons": "remove",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "typescript.locale": "es",
+  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
+  // -- JSON
+  "json.format.keepLines": true,
+  // -- C++
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+  "C_Cpp.vcFormat.space.beforeFunctionOpenParenthesis": "ignore",
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2, ColumnLimit: 0}",
+  // # Deno
+  "deno.lint": false,
+  "deno.inlayHints.variableTypes.enabled": false,
+  "deno.inlayHints.functionLikeReturnTypes.enabled": false,
+  // # ESLint
+  "eslint.packageManager": "pnpm",
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "astro"
+  ],
+  // # Stylelint
+  "stylelint.validate": [
+    "css",
+    "less",
+    "scss",
+    "postcss"
+  ],
+  // -- JavaScript
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.semicolons": "remove",
+  "js/ts.implicitProjectConfig.target": "ESNext",
+  "debug.javascript.automaticallyTunnelRemoteServer": false,
+  "telemetry.telemetryLevel": "off",
+  "explorer.compactFolders": false,
+  // -- Markdown
+  "markdown.occurrencesHighlight.enabled": true,
+  "markdown.preview.breaks": true,
+  "markdown.updateLinksOnFileMove.enabled": "always",
+  // -- ASTRO
+  "astro.html.hover.enabled": false,
+  "files.associations": {
+    "*.mdx": "markdown"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.colorTheme": "One Dark Pro Darker"
 }
