@@ -1,0 +1,30 @@
+
+02/04/2023 16:21:01
+Error reading config file: Referencia a objeto no establecida como instancia de un objeto.
+
+
+
+Checking latest firmware for SM-A305G/MXO/A305GUBU8CVK1/A305GOWO8CVK1/A305GDXU8CVK1
+Latest Firmware available for SM-A305G is: A305GUBU8CVK1/A305GOWO8CVK1/A305GDXU8CVK1
+Filename: C:\Users\Carlo\Documents\SM-A305G_2_20221129043633_71hbnyo295_fac.zip.enc4
+Trying to download SM-A305G_2_20221129043633_71hbnyo295_fac.zip.enc4 to C:\Users\Carlo\Documents\SM-A305G_2_20221129043633_71hbnyo295_fac.zip.enc4
+Path: /neofus/910/
+File: SM-A305G_2_20221129043633_71hbnyo295_fac.zip.enc4
+Firmware successfully downloaded
+Checking CRC32...
+Error: CRC does not match. Please redownload the file.
+
+
+
+Checking latest firmware for SM-A305G/MXO/A305GUBU8CVK1/A305GOWO8CVK1/A305GDXU8CVK1
+Latest Firmware available for SM-A305G is: A305GUBU8CVK1/A305GOWO8CVK1/A305GDXU8CVK1
+Filename: C:\Users\Carlo\Documents\SM-A305G_2_20221129043633_71hbnyo295_fac.zip.enc4
+Trying to download SM-A305G_2_20221129043633_71hbnyo295_fac.zip.enc4 to C:\Users\Carlo\Documents\SM-A305G_2_20221129043633_71hbnyo295_fac.zip.enc4
+Path: /neofus/910/
+File: SM-A305G_2_20221129043633_71hbnyo295_fac.zip.enc4
+Firmware successfully downloaded
+Checking CRC32...
+Success: CRC match!
+Decrypting firmware...
+Decryption finished
+

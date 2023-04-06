@@ -12,3 +12,4 @@ cd dotfiles
 - [CMD](cmd/profile.cmd)
 - [PowerShell](pwsh/profile.ps1)
 - [Visual Studio Code](vscode/settings.json)
+- [Samsung](samsung/README.md)
